@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title">
+  <title id="title">Nordwind Airlines abstract project cover</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#27102f"/>
+      <stop offset=".55" stop-color="#111020"/>
+      <stop offset="1" stop-color="#080812"/>
+    </linearGradient>
+    <linearGradient id="wing" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#e678ff"/>
+      <stop offset="1" stop-color="#7be7ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="900" fill="url(#bg)"/>
+  <g stroke="#f3e8ff" stroke-opacity=".1">
+    <path d="M0 180h1200M0 360h1200M0 540h1200M0 720h1200"/>
+    <path d="M200 0v900M400 0v900M600 0v900M800 0v900M1000 0v900"/>
+  </g>
+  <path d="M193 596c221-51 389-147 507-286l88-103 36 18-40 152 251 90-24 54-280-32-111 176-39-18 49-194c-126 87-263 151-410 191z" fill="url(#wing)" fill-opacity=".8"/>
+  <path d="M183 660c320-9 589-88 807-238" fill="none" stroke="#f5f1ff" stroke-opacity=".34" stroke-width="2" stroke-dasharray="10 15"/>
+  <circle cx="1010" cy="408" r="9" fill="#f5f1ff"/>
+  <text x="70" y="85" fill="#f5f1ff" font-family="monospace" font-size="26" letter-spacing="7">NORDWIND / ROUTE 03</text>
+  <text x="70" y="830" fill="#e678ff" font-family="monospace" font-size="18" letter-spacing="5">AVIATION · CHECK-IN · LOYALTY</text>
+</svg>
