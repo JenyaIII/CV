@@ -15,8 +15,6 @@ export function Hero() {
         <SignalScene />
       </Suspense>
       <div className="hero-grid" aria-hidden="true" />
-      <div className="hero-orb hero-orb-one" aria-hidden="true" />
-      <div className="hero-orb hero-orb-two" aria-hidden="true" />
 
       <div className="hero-content page-shell">
         <p className="eyebrow hero-eyebrow">{copy.hero.eyebrow}</p>
